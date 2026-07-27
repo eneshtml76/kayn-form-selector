@@ -1,0 +1,104 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#kayn-img {
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.button-group {
+    display: flex;
+    gap: 20px;
+}
+
+/* Button Base Styles with Smooth Transitions */
+.btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 0.7; 
+    transition: all 0.3s ease; 
+}
+
+/* --- BLUE BUTTON EFFECTS (HOVER & ACTIVE) --- */
+.blue-btn {
+    background-color: #0055ff;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 85, 255, 0.2);
+}
+.blue-btn:hover {
+    opacity: 1; 
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 20px rgba(0, 85, 255, 0.6); 
+}
+.blue-btn:active {
+    transform: translateY(-2px) scale(0.95); 
+}
+
+/* --- RED BUTTON EFFECTS (HOVER & ACTIVE) --- */
+.red-btn {
+    background-color: #ff0033;
+    color: white;
+    box-shadow: 0 4px 10px rgba(255, 0, 51, 0.2);
+}
+.red-btn:hover {
+    opacity: 1; 
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 20px rgba(255, 0, 51, 0.6); 
+}
+.red-btn:active {
+    transform: translateY(-2px) scale(0.95); 
+}
+
+/* --- SKILLS CONTAINER STYLING --- */
+.skills-box {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    text-align: left;
+    transition: all 0.5s ease;
+}
+
+.skills-box h3 {
+    margin-top: 0;
+    color: #f0e6d2; 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 5px;
+}
+
+.skills-box p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ccc;
+    margin: 8px 0;
+}
+
+.blue-glow {
+    border-color: #0055ff;
+    box-shadow: 0 0 15px rgba(0, 85, 255, 0.3);
+}
+
+.red-glow {
+    border-color: #ff0033;
+    box-shadow: 0 0 15px rgba(255, 0, 51, 0.3);
+}
