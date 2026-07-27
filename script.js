@@ -3,7 +3,7 @@ const mainTitle = document.getElementById("main-title");
 const skillsContainer = document.getElementById("skills-container");
 
 function shadowForm() {
-    kaynImage.src = "blue.164605.jpg"; 
+    kaynImage.src = "164605.jpg"; 
     mainTitle.innerText = "Time for speed and assassination! (Shadow Assassin)";
     document.body.style.backgroundColor = "#001133"; 
 
